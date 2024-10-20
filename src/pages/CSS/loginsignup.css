@@ -1,0 +1,81 @@
+.signup{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(wheat ,lightslategray );
+    padding-top: 70px;
+}
+
+.signup-container{
+    width: 580px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    color: lightslategray;
+    padding: 40px 60px;
+}
+
+.signup-container h1{
+    margin:  0px;
+    text-align: center;
+    font-weight: 700;
+    color: darkslategray;
+    
+}
+
+.signup-feilds{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    gap: 20px;
+}
+
+.signup-feilds input{
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    border: 1px solid wheat;
+    outline: none;
+    color: firebrick;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+
+.signup-container button{
+    width: 460px;
+    height: 70px;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+}
+
+.login{
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;    
+}
+
+.login span{
+    color: red;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.signup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+    color: lightslategray;
+    font-size: 20px;
+    font-weight: 600;
+
+}

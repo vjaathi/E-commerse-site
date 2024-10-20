@@ -1,0 +1,63 @@
+.mainPage{
+    height: 100vh;
+    background: linear-gradient(180deg,pink,white 60%);
+}
+
+.mainPage-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 180px;
+    gap: 20px;
+    line-height: 1.1;
+}
+
+.mainPage-left h2{
+    color: teal;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.mainPage-left p{
+    color: darkslategrey;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hand-icon img{
+    width: 80px;
+}
+
+.Latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 70px;
+    gap: 15px;
+    margin-top: 30px;
+    border-radius: 75px;
+    background-color: red;
+    font-size: 22px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.Latest-btn p{
+    color: whitesmoke ;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.mainPage-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
